@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="KR_2.css">
+    <title>KR_2</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="panel3">
+            <div class="save"></div>
+            <div class="addTable"></div>
+            <div class="addNumerList"></div>
+            <div class="addImgList"></div>
+        </div>
+
+        <div class="panel">
+            <button type="button" id="add"></button>
+            <div class="decoration">
+                <button type="button" id="bold">B</button>
+                <button type="button" id="italic">I</button>
+                <button type="button" id="underline">U</button>
+                <button type="button" id="through">S</button>
+            </div>
+            <div class="center">
+                <button type="button" id="left"></button>
+                <button type="button" id="center"></button>
+                <button type="button" id="right"></button>
+            </div>
+            <div class="color">
+                <select id="font">
+                    <option></option>
+                    <option value="Arial" id="arial">Arial</option>
+                    <option value="Georgia" id="georgia">Georgia</option>
+                    <option value="Impact" id="impact">Impact</option>
+                    <option value="Tahoma" id="tahoma">Tahoma</option>
+                    <option value="TimesNewRoman" id="tnr">Times New Roman</option>
+                    <option value="Verdana" id="verdana">Verdana</option>
+                </select>
+                <select id="font_size">
+                    <option></option>
+                    <option value="12">12px</option>
+                    <option value="16">16px</option>
+                    <option value="18">18px</option>
+                    <option value="20">20px</option>
+                    <option value="22">22px</option>
+                </select>
+            </div>
+            <div class="color_button">
+                <button type="button" id="color_text"></button>
+                <button type="button" id="color_back"></button>
+            </div>
+
+            <div class="block">
+                <button type="button" id="block"></button>
+            </div>
+        </div>
+        <div id="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis.</p>
+            <div id="text2"></div>
+        </div>
+
+    </div>
+    <div id="back_grey">
+        <div class="panel_2">
+            <div id="color_2">Color</div>
+            <div id="img_2">Image</div>
+            <div id="choose_2">Files</div>
+        </div>
+        <div id="img_23">
+            <div class="box1" id="jpec"></div>
+            <div class="box2" id="jpec"></div>
+            <div class="box3" id="jpec"></div>
+            <div class="box4" id="jpec"></div>
+        </div>
+        <div class="choose" id="choose">
+            <input type="file" id="cf" placeholder="Please choose file...">
+            <input type="button" value="Browse" id="browse">
+        </div>
+        <div id="color">
+            <div class="num_1" id="col"></div>
+            <div class="num_2" id="col"></div>
+            <div class="num_3" id="col"></div>
+            <div class="num_4" id="col"></div>
+            <div class="num_5" id="col"></div>
+            <div class="num_6" id="col"></div>
+            <div class="num_7" id="col"></div>
+            <div class="num_8" id="col"></div>
+            <div class="num_9" id="col"></div>
+            <div class="num_10" id="col"></div>
+            <div class="num_11" id="col"></div>
+            <div class="num_12" id="col"></div>
+            <div class="num_13" id="col"></div>
+            <div class="num_14" id="col"></div>
+            <div class="num_15" id="col"></div>
+            <div class="num_16" id="col"></div>
+            <div class="num_17" id="col"></div>
+            <div class="num_18" id="col"></div>
+            <div class="num_19" id="col"></div>
+            <div class="num_20" id="col"></div>
+            <div class="num_21" id="col"></div>
+        </div>
+        <form action="" name="signIn" style="margin-left: 25%">
+            <div class="signIn" id="sign">
+                <h2>Sign in</h2>
+                <input type="text" placeholder="Login here..." id="login">
+                <input type="password" placeholder="Password here..." id="pas">
+                <input type="buttom" value="Sing in" id="in">
+            </div>
+        </form>
+        <form action="" name="table">
+            <div class="table" id="table">
+                <div class="td" id="table">
+                    <span>Count TD</span>
+                    <input type="text" placeholder="Enter numer of td" class="tdCount" id="table">
+                    <span>Height TR</span>
+                    <input type="text" placeholder="Enter height of td" class="tdHeight" id="table">
+                    <span>Width of border</span>
+                    <input type="text" placeholder="Enter width of border" class="tabBorder" id="table">
+                    <input type="button" value="Reset" class="resetTable" id="table">
+                </div>
+                <div class="tr" id="table">
+                    <span>Count TR</span>
+                    <input type="text" placeholder="Enter numer of tr" class="trCount" id="table">
+                    <span>Width TR</span>
+                    <input type="text" placeholder="Enter width of tr" class="trWidth" id="table">
+                    <div style="display: flex" id="table">
+                        <span>Style of border: </span>
+                        <span style="margin-left: 35px">Color of border:</span>
+                    </div>
+                    <div style="display: flex" id="table">
+                        <select name="" class="typeBorder" id="table">
+                            <option value="solid">solid</option>
+                            <option value="dotted">dotted</option>
+                            <option value="double">double</option>
+                            <option value="dashed">dashed</option>
+                        </select>
+                        <input type="text" placeholder="color" class="colorBorder" id="table">
+                    </div>
+                    <input type="button" value="Create table" class="createTable" id="table">
+                </div>
+            </div>
+        </form>
+        <form action="" name="listN" style="margin-left: 15%">
+            <div class="listFormN" id="list">
+                <span>Count li item:</span>
+                <input type="text" placeholder="Count li..." class="countLi" id="list">
+                <span>Type of li:</span>
+                <select name="" class="liNumType" id="list">
+                    <option value="upper-roman">I</option>
+                    <option value="decimal">1</option>
+                    <option value="upper-alpha">A</option>
+                    <option value="none">none</option>
+                </select>
+                <div style="display: flex" id="list">
+                    <input type="button" value="Reset" class="resetListN" id="list">
+                    <input type="button" value="Create list" class="createList" id="list">
+                </div>
+            </div>
+        </form>
+        <form action="" name="listI">
+            <div class="listFormI" id="list">
+                <span>Count li item:</span>
+                <input type="text" placeholder="Count li..." class="countLiImg" id="list">
+                <span>Type of li:</span>
+                <select name="" class="liImgType" id="list">
+                    <option value="circle">circle</option>
+                    <option value="disc">disc</option>
+                    <option value="square">squar</option>
+                    <option value="none">none</option>
+                </select>
+                <div style="display: flex" id="list">
+                    <input type="button" value="Reset" class="resetListI" id="list">
+                    <input type="button" value="Create list" class="createListI" id="list">
+                </div>
+            </div>
+        </form>
+
+    </div>
+    </div>
+
+    <script src="KR_2.js"></script>
+</body>
+
+</html>
